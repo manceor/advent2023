@@ -99,7 +99,7 @@ for (string line; getline(ifs, line); )
     ofs << endl;
     total += (first * 10) + last; 
 }
-ofs << total << endl;
+ofs << total << "\n";
 return 0;
 
 }
